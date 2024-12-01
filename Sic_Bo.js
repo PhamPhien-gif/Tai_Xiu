@@ -83,8 +83,10 @@ function PlayGame(){
 function CapNhat(x){
     Tai.classList.remove('button2');
     Xiu.classList.remove('button2');
-
-    nguoiChoi.innerText= "Tổng: "+ x + "\nSố tiền còn lại: " + p.Money;
+    var string;
+    if(KetQua()==1) string= " Tài";
+    else string =" Xỉu";
+    nguoiChoi.innerText= "Tổng: "+ x + "- " + string +     "\nSố tiền còn lại: " + p.Money;
     Tai_Xiu=0;
 }
 
