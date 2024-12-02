@@ -1,4 +1,9 @@
 
+
+body {
+    background-color: aliceblue;
+}
+
 .Container {
     /* background-color: rgb(189, 146, 94); */
     display: grid;
